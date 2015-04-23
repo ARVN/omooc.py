@@ -1,4 +1,4 @@
-#模仿的代码
+#模仿Chaonet的代码
 
 
 
@@ -10,11 +10,11 @@ import math
 
 # 定义各种变量，全局和局部变量
 
-WIDTH = 1000
+WIDTH = 800
 HEIGHT = 600
 canvas_color = "Black"
 pos = [WIDTH / 2, HEIGHT / 2]
-BALL_RADIUS = 17
+BALL_RADIUS = 7
 Polygons = "Round"
 
 
@@ -95,7 +95,7 @@ def draw(canvas):
 
 # 设置框架对应生成按钮，并回调事件
 
-frame = simplegui.create_frame("Home", 1000, 600)
+frame = simplegui.create_frame("Home", 800, 600)
 frame.set_canvas_background('White')
 frame.add_button('Triangular', Triangular, 80)
 frame.add_button('Square', Square, 80)
