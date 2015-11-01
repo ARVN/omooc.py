@@ -93,6 +93,9 @@ $; pyenv versions                                2.2.1p85
     ```
     
   
+
+
+
 - 退出当前虚拟开发环境
   
   ``` 
@@ -100,6 +103,8 @@ $; pyenv versions                                2.2.1p85
   :$; pyenv deactivate my_blog           (my_blog)  2.2.1p85
   ```
   
+
+
 
 
 
@@ -116,6 +121,9 @@ $; pyenv versions                                2.2.1p85
     ​
     
   
+
+
+
 - 使用Django创建 myblog项目
   
 - ``` 
